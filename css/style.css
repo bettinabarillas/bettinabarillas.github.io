@@ -1,4 +1,50 @@
-body{
+body {
 	color: white;
-	background-color: blue;
+	background-image: url("landscape.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+	font-size: 22px;
+	text-align: center;
+}
+h1 {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	font-weight:bold;
+}
+p {
+	font-size: 23px;
+	color: #262626;
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 80px;
+	font-weight: bolder;
+	color:white;
+	padding-top:0px;	
+}
+hr {
+	width: 1000px;
+	height: 2px;
+	color: #FFF;
+	background-color: #FFF;
+	text-align: center;
+	padding-top:0px;
+}
+
+ul {
+	list-style-position: inside;
+	font-size: 17px;
+	text-align: center;
+	color: #000;
+	padding-top:0px;
+	padding-bottom:5px;
+}
+
+#focus {
+	font-weight: bold;
+	text-align:center;
 }
